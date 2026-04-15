@@ -12,7 +12,7 @@ You can run your application in dev mode that enables live coding using:
 ./mvnw quarkus:dev
 ```
 
-> **_NOTE:_**  Quarkus now ships with a Dev UI, which is available in dev mode only at <http://localhost:8080/q/dev/>.
+> **_NOTE:_** Quarkus now ships with a Dev UI, which is available in dev mode only at <http://localhost:8080/q/dev/>.
 
 ## Packaging and running the application
 
@@ -81,8 +81,15 @@ WebSocket communication channel starter code
 
 [Related guide section...](https://quarkus.io/guides/websockets)
 
- # 4주차 수업 마무리 단계 (마무리 X)
+# 4주차 수업 마무리 단계 (마무리 X)
 
- # 5주차 수업 내용
- download.html / css 추가
- Modal html 추가
+# 5주차 수업 내용
+
+download.html / css 추가
+Modal html 추가
+
+# 6주차 수업
+
+# 7주차 수업
+
+챔피언 검색 기능 추가(js)

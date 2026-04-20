@@ -13,6 +13,9 @@ const CHAMPIONS = [
     { name: '브라이어', engName: 'Briar', role: '전사', lane: '정글', img: 'https://ddragon.leagueoflegends.com/cdn/15.24.1/img/champion/Briar.png', difficulty: '중' },
     { name: '잭스', engName: 'Jax', role: '전사', lane: '탑', img: 'https://ddragon.leagueoflegends.com/cdn/15.24.1/img/champion/Jax.png', difficulty: '하' },
     { name: '징크스', engName: 'Jinx', role: '원거리딜러', lane: '원딜', img: 'https://ddragon.leagueoflegends.com/cdn/15.24.1/img/champion/Jinx.png', difficulty: '중' },
+    { name: '멜', engName: 'Mel', role: '마법사', lane: '미드', img: 'https://ddragon.leagueoflegends.com/cdn/15.24.1/img/champion/Mel.png', difficulty: '중' },
+    { name: '유나라', engName: 'Yunara', role: '원거리딜러', lane: '원딜', img: 'https://ddragon.leagueoflegends.com/cdn/15.24.1/img/champion/Yunara.png', difficulty: '중' },
+    { name: '자헨', engName: 'Zaahen', role: '전사', lane: '탑', img: 'https://ddragon.leagueoflegends.com/cdn/15.24.1/img/champion/Zaahen.png', difficulty: '하' },
 ];
 
 // ── 뉴스 데이터 ──────────────────────────────────────────────
@@ -21,9 +24,16 @@ const NEWS = [
     { title: '패치 노트 16.4', desc: '챔피언 밸런스 및 아이템 업데이트 내용을 확인하세요.', category: '패치 노트' },
 ];
 // ── 검색 실행 ────────────────────────────────────────────────
+function showMainScreen() {
+    alert("메인 페이지로 이동");
+}
 function performSearch(query) {
     const q = query.trim().toLowerCase(); // 앞 뒤 공백제거, 소문자 변환
-    if (!q) return;
+    if (!q) {
+        showMainScreen();
+        location.href = 'index.htmlx'
+        return;
+    }
     document.getElementById('searchKeywordDisplay').textContent = `"${query}"`; // 검색어 인식
     // 챔피온 데이터에서 이름, 영문명, 역할군, 라인 중 하나라도 검색어에 포함되면
     const champResults = CHAMPIONS.filter(c =>

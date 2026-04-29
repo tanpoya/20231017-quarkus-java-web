@@ -31,7 +31,8 @@ function performSearch(query) {
     const q = query.trim().toLowerCase(); // 앞 뒤 공백제거, 소문자 변환
     if (!q) {
         showMainScreen();
-        location.href = 'index.htmlx'
+        location.href = './index.html'
+        //location.href = 'http://localhost:8080/'
         return;
     }
     document.getElementById('searchKeywordDisplay').textContent = `"${query}"`; // 검색어 인식
@@ -98,4 +99,4 @@ document.getElementById('searchForm').addEventListener('submit', function (e) {
     e.preventDefault();
     const query = document.getElementById('searchInput').value;
     performSearch(query);
-});
+}); 

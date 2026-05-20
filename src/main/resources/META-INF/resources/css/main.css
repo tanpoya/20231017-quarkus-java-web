@@ -19,7 +19,7 @@ body { background-color: #0a0e17; color: #fff; font-family: 'Arial', sans-serif;
 }
 .navbar-collapse {
     position: relative;
-    left: 20%;
+    left: 10%;
 }
 .form-search {
     position: relative;

@@ -15,11 +15,12 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/toggle.js"></script>
     <!-- <script src="js/test.js"></script> -->
-    <!-- <script>
-         window.onload = function() {
-            alert("메인 페이지 로딩 완료");
-            }
-        </script> -->
+    <script>
+        window.onload = function () {
+            // alert("메인 페이지 로딩 완료");
+            showToast('메인 페이지 로딩 완료'); //← 추가
+        }
+    </script>
     <!-- 커스텀 스타일 (LOL 테마 + 챔피언 호버 효과) -->
 </head>
 
@@ -622,8 +623,23 @@
             </div>
         </div>
     </section>
+
+    <!-- 토스트 컨테이너 </body> 바로 위에 추가 -->
+    <div class="toast-container position-fixed
+bottom-0 end-0 p-3" style="z-index:9999">
+        <div id="liveToast" class="toast align-items-center
+text-white bg-success border-0" role="alert">
+            <div class="d-flex">
+                <div class="toast-body" id="toastBody">
+                    메시지
+                </div>
+                <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"></button>
+            </div>
+        </div>
+    </div>
+
     <script src="js/search.js"></script>
-    <script src="js/test2.js"></script>
+    <script src="js/test.js"></script>
 </body>
 
 </html>

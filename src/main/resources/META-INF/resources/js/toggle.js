@@ -67,7 +67,9 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     const path = window.location.pathname;
-    if (path === '/' || path.endsWith('/main_index.html')) {
+    if (path.endsWith('/after_login') || path.endsWith('/main_after_login.html')) {
+        showToast('로그인 성공!');
+    } else if (path === '/' || path.endsWith('/main_index.html')) {
         showToast('메인 페이지 로딩 완료');
     } else if (path.endsWith('/register')) {
         showToast('회원가입 페이지 로딩 완료');

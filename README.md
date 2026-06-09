@@ -11,36 +11,81 @@ This project uses Quarkus, the Supersonic Subatomic Java Framework.
 - alert 알림을 Toast 방식으로 교체
 - 주요 페이지 검색창, 네비게이션 링크, 다운로드 페이지 테마 적용 정리
 
+# 엔드포인트
+<img src="src\main\resources\META-INF\resources\image\endpoint.png">
+
 # 9주차 수업
 다크모드/라이트모드 변경 추가 (javascript)
 MYSQL 데이터베이스 연동
 
-<img src="src\main\resources\META-INF\resources\image\스크린샷 2026-06-09 184024.png">
+# 9주차 과제
+<img src="src\main\resources\META-INF\resources\image\9주차3.png">
+
+---
 
 # 10주차 수업
 엔드포인트 등록 (AuthResource.java, User.java...)
 메인 페이지 로그인 활성화
 메인 페이지 로그아웃 활성화
+<img src="src\main\resources\META-INF\resources\image\login1.png">
+<img src="src\main\resources\META-INF\resources\image\login2.png">
+
+# 10주차 과제
+<img src="src\main\resources\META-INF\resources\image\스크린샷 2026-06-09 184024.png">
+<img src="src\main\resources\META-INF\resources\image\닼라.png">
+
+---
 
 # 11주차 수업
 10주차 이어서 작업
 회원가입 활성화
 해시 암호화를 통한 회원가입 시 비밀번호 암호화
+<img src="src\main\resources\META-INF\resources\image\11-1.png">
+
+
+# 11주차 과제
+<img src="src\main\resources\META-INF\resources\image\회원가입.png">
+
+---
 
 # 12주차 수업
 로그인 암호화 체크 작업
 프로필 페이지 추가 및 작업
+<img src="src\main\resources\META-INF\resources\image\스크린샷 2026-06-09 184024.png">
+<img src="src\main\resources\META-INF\resources\image\12-2.png">
+
+# 12주차 과제
+<img src="src\main\resources\META-INF\resources\image\12-3.png">
+<img src="src\main\resources\META-INF\resources\image\12-1.png">
+
+
+---
 
 # 13주차 수업
 alert을 통한 알림 창 제거 및 알림 창 부트스트랩으로 작업
 네비바 동적 작업
 회원정보 수정 작업
 회원정보 이미지 업로드 가능
+<img src="src\main\resources\META-INF\resources\image\to.png">
+<img src="src\main\resources\META-INF\resources\image\13.png">
+
+# 13주차 과제
+<img src="src\main\resources\META-INF\resources\image\131.png">
+<img src="src\main\resources\META-INF\resources\image\132.png">
+<img src="src\main\resources\META-INF\resources\image\to.png">
+
+# 최종 마무리 작업
+
+
 
 ---
 
+# 과제를 하면서 든 생각
+이번에 처음으로 Codex를 결제해서 사용해 봤는데 토큰을 생각보다 많이 먹는걸 제외하면 왜 AI 에이전트를 사용하는지 깨달았음.
+확실히 이제는 AI에 익숙해지면 혼자서는 개발하지 못할 것 같음.
+
 # 시험준비
-univai를 활용하여 수업자료의 요약 및 퀴즈 풀기
+9~13주차 수업 자료 및 실습 코드 훑어보기
 
 
 If you want to learn more about Quarkus, please visit its website: <https://quarkus.io/>.

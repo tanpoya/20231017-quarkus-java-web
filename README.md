@@ -15,7 +15,7 @@ This project uses Quarkus, the Supersonic Subatomic Java Framework.
 다크모드/라이트모드 변경 추가 (javascript)
 MYSQL 데이터베이스 연동
 
-
+<img src="src\main\resources\META-INF\resources\image\스크린샷 2026-06-09 184024.png">
 
 # 10주차 수업
 엔드포인트 등록 (AuthResource.java, User.java...)

@@ -11,11 +11,8 @@
     <!-- Bootstrap 5 CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/main.css">
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> -->
     <script src="../js/bootstrap.bundle.min.js"></script>
     <script src="../js/toggle.js"></script>
-    <!-- <script src="js/test.js"></script> -->
-    <!-- 커스텀 스타일 (LOL 테마 + 챔피언 호버 효과) -->
 </head>
 
 <body>
@@ -59,23 +56,21 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">리그오브레전드</a>
+                        <a class="nav-link active" aria-current="page" href="/">리그오브레전드</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">뉴스</a>
+                        <a class="nav-link" href="/#newsSection">뉴스</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">챔피언</a>
+                        <a class="nav-link" href="/#championSection">챔피언</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/main_page_sub/download.html">다운로드</a>
                     </li>
-                    <!-- 기존 로그아웃 버튼 앞에 추가 -->
                     <li class="nav-item">
                         <a class="nav-link" href="/profile" id="profileNavLink" data-bs-toggle="tooltip"
-                            data-bs-placement="bottom">👤프로필</a>
+                            data-bs-placement="bottom">프로필</a>
                     </li>
-                    <!-- 기존 프로필 버튼 수정 -->
                     <li class="nav-item">
                         <a class="nav-link btn btn-outline-danger btn-sm px-3" href="/logout">로그아웃</a>
                     </li>
@@ -84,7 +79,7 @@
                         <a class="nav-link" href="logout/">로그아웃</a>
                     </li> -->
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             외부 사이트
                         </a>
@@ -95,7 +90,8 @@
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#">공식 유튜브</a></li>
+                            <li><a class="dropdown-item" href="https://www.youtube.com/@leagueoflegends"
+                                    target="_blank">공식 유튜브</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -121,12 +117,14 @@
         <div class="container">
             <h1 class="display-3 fw-bold">League of Legends</h1>
             <p class="lead">적의 넥서스를 파괴하세요! 5v5 MOBA 전투에서 팀과 함께 승리하세요.</p>
-            <a href="#" class="btn btn-primary btn-lg" data-toast-message="즐거운 플레이 되세요">무료 플레이</a>
+            <button type="button" class="btn btn-primary btn-lg" data-toast-message="즐거운 플레이 되세요">
+                무료 플레이
+            </button>
         </div>
     </section>
 
     <!-- 챔피언 선택 섹션 (작은 썸네일 PNG로 업데이트!) -->
-    <section class="container my-5">
+    <section class="container my-5" id="championSection">
         <h2 class="text-center mb-4 accent-purple">챔피언 선택</h2>
         <p class="text-center mb-5">전투에 뛰어들기, 팀 지원, 또는 그 중간? 당신의 스타일을 선택하세요.</p>
         <!-- <div class="row g-4"> -->
@@ -560,7 +558,7 @@
     </section>
 
     <!-- 뉴스 섹션 (기존 유지) -->
-    <section class="container my-5">
+    <section class="container my-5" id="newsSection">
         <h2 class="text-center mb-4 accent-red">최신 뉴스</h2>
         <div class="row g-4">
             <div class="col-md-6 col-lg-4">
@@ -626,8 +624,6 @@
     </section>
 
     <script src="../js/search.js"></script>
-    <script src="../js/test2.js"></script>
-    <script src="../js/toggle.js"></script>
     <script src="../js/profile.js"></script>
 </body>
 

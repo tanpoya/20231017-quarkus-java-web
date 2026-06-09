@@ -19,8 +19,6 @@ async function showConfirmModal() {
     // SHA-256 해시 생성 → hidden 필드(id="password")에 저장
     const hashed = await hashPassword(password);
     document.getElementById('hashedPassword').value = hashed;
-    // F12 콘솔에서 해시값 확인
-    console.log('해시된 패스워드 :', hashed);
     // Bootstrap 확인 모달 출력
     const modal = new bootstrap.Modal(
         document.getElementById('confirmModal'));

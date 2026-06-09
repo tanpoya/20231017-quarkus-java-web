@@ -15,12 +15,6 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/toggle.js"></script>
     <!-- <script src="js/test.js"></script> -->
-    <script>
-        window.onload = function () {
-            // alert("메인 페이지 로딩 완료");
-            showToast('메인 페이지 로딩 완료'); //← 추가
-        }
-    </script>
     <!-- 커스텀 스타일 (LOL 테마 + 챔피언 호버 효과) -->
 </head>
 
@@ -52,7 +46,7 @@
             <div class="nav-text">
                 <!-- <img src="image/LOL_logo.webp" alt="" width="30" height="24"> -->
                 <!-- [변경] "Navbar" 텍스트 → 다크/라이트 토글 버튼 -->
-                <button class="btn border-0" id="themeToggleBtn" onclick="toggleTheme()">
+                <button class="btn border-0" id="themeToggleBtn" type="button">
                     🌙 DARK
                 </button>
                 <!-- <a class="navbar-brand" href="#">Navbar</a> -->
@@ -94,9 +88,6 @@
                             <li><a class="dropdown-item" href="#">공식 유튜브</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                    </li>
                 </ul>
             </div>
             <div class="form-search">
@@ -120,7 +111,7 @@
         <div class="container">
             <h1 class="display-3 fw-bold">League of Legends</h1>
             <p class="lead">적의 넥서스를 파괴하세요! 5v5 MOBA 전투에서 팀과 함께 승리하세요.</p>
-            <a href="#" class="btn btn-primary btn-lg" onclick="alert('플레이')">무료 플레이</a>
+            <a href="#" class="btn btn-primary btn-lg" data-toast-message="즐거운 플레이 되세요">무료 플레이</a>
         </div>
     </section>
 
@@ -599,10 +590,10 @@
                         <div class="px-3 mb-3"
                             style="font-size:0.8rem; color:#999; text-transform:uppercase; letter-spacing:0.1em;">카테고리
                         </div>
-                        <div class="search-category-item active" onclick="switchCategory('champion', this)">
+                        <div class="search-category-item active" data-search-category="champion">
                             챔피언 <span class="count" id="champCount">(0)</span>
                         </div>
-                        <div class="search-category-item" onclick="switchCategory('news', this)">
+                        <div class="search-category-item" data-search-category="news">
                             뉴스 <span class="count" id="newsCount">(0)</span>
                         </div>
                     </div>

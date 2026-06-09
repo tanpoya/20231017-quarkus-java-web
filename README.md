@@ -2,6 +2,15 @@
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
+# 9~13주차 마무리 과제 적용
+
+- 검색 결과 챔피언 카드에 Bootstrap 모달 연결
+- 다크/라이트 모드 버튼을 인라인 이벤트에서 addEventListener 방식으로 변경하고 localStorage로 유지
+- 로그인 입력값 검증 및 로그인 실패 메시지 표시
+- 프로필 이미지 업로드 오류 메시지 표시
+- alert 알림을 Toast 방식으로 교체
+- 주요 페이지 검색창, 네비게이션 링크, 다운로드 페이지 테마 적용 정리
+
 If you want to learn more about Quarkus, please visit its website: <https://quarkus.io/>.
 
 ## Running the application in dev mode

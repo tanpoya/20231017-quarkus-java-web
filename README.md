@@ -11,6 +11,38 @@ This project uses Quarkus, the Supersonic Subatomic Java Framework.
 - alert 알림을 Toast 방식으로 교체
 - 주요 페이지 검색창, 네비게이션 링크, 다운로드 페이지 테마 적용 정리
 
+# 9주차 수업
+다크모드/라이트모드 변경 추가 (javascript)
+MYSQL 데이터베이스 연동
+
+
+
+# 10주차 수업
+엔드포인트 등록 (AuthResource.java, User.java...)
+메인 페이지 로그인 활성화
+메인 페이지 로그아웃 활성화
+
+# 11주차 수업
+10주차 이어서 작업
+회원가입 활성화
+해시 암호화를 통한 회원가입 시 비밀번호 암호화
+
+# 12주차 수업
+로그인 암호화 체크 작업
+프로필 페이지 추가 및 작업
+
+# 13주차 수업
+alert을 통한 알림 창 제거 및 알림 창 부트스트랩으로 작업
+네비바 동적 작업
+회원정보 수정 작업
+회원정보 이미지 업로드 가능
+
+---
+
+# 시험준비
+univai를 활용하여 수업자료의 요약 및 퀴즈 풀기
+
+
 If you want to learn more about Quarkus, please visit its website: <https://quarkus.io/>.
 
 ## Running the application in dev mode
@@ -124,32 +156,4 @@ Modal html 추가
 - location을 통해 index.html로 이동
 
 ---
-
-# 9주차 수업
-다크모드/라이트모드 변경 추가 (javascript)
-MYSQL 데이터베이스 연동
-
-# 10주차 수업
-엔드포인트 등록 (AuthResource.java, User.java...)
-메인 페이지 로그인 활성화
-메인 페이지 로그아웃 활성화
-
-# 11주차 수업
-10주차 이어서 작업
-회원가입 활성화
-해시 암호화를 통한 회원가입 시 비밀번호 암호화
-
-# 12주차 수업
-로그인 암호화 체크 작업
-프로필 페이지 추가 및 작업
-
-# 13주차 수업
-alert을 통한 알림 창 제거 및 알림 창 부트스트랩으로 작업
-네비바 동적 작업
-회원정보 수정 작업
-회원정보 이미지 업로드 가능
-
----
-
-# 시험준비
-univai를 활용하여 수업자료의 요약 및 퀴즈 풀기
+중간고사 전 수업 과제는 사진이 없습니다. 기말고사 전 수정 내용엔 사진 포함.

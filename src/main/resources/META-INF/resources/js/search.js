@@ -28,6 +28,7 @@ function switchCategory(type, el) {
 function openChampionModal(modalId) {
     const modalEl = document.getElementById(modalId);
     if (!modalEl || !window.bootstrap) return;
+    document.body.appendChild(modalEl);
     bootstrap.Modal.getOrCreateInstance(modalEl).show();
 }
 
@@ -93,6 +94,12 @@ function performSearch(query) {
     searchResults.style.display = 'block';
 
     document.querySelectorAll('[data-modal-id]').forEach((card) => {
+        card.addEventListener('click', function (event) {
+            event.preventDefault();
+            event.stopPropagation();
+            openChampionModal(card.dataset.modalId);
+        });
+
         card.addEventListener('keydown', function (event) {
             if (event.key === 'Enter' || event.key === ' ') {
                 event.preventDefault();
